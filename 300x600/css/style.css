@@ -108,47 +108,47 @@
   animation: fadeIn 0.75s ease-out forwards;
 }
 #txt1 span:nth-of-type(1){
-  animation-delay: 3.5s;
+  animation-delay: 3.50s;
 }
 #txt1 span:nth-of-type(2){
-  animation-delay: 3.65s;
+  animation-delay: 3.60s;
 } 
 #txt1 span:nth-of-type(3){
-  animation-delay: 3.80s;
+  animation-delay: 3.70s;
 } 
 
 #txt2 span:nth-of-type(1){
-  animation-delay: 3.95s;
+  animation-delay: 3.80s;
 }
 #txt2 span:nth-of-type(2){
-  animation-delay: 4.10s;
+  animation-delay: 3.90s;
 } 
 #txt2 span:nth-of-type(3){
-  animation-delay: 4.25s;
+  animation-delay: 4s;
 }
 
 #txt3 span:nth-of-type(1){
-  animation-delay: 4.40s;
+  animation-delay: 4.10s;
 }
 #txt3 span:nth-of-type(2){
-  animation-delay: 4.55s;
+  animation-delay: 4.20s;
 } 
 #txt3 span:nth-of-type(3){
-  animation-delay: 4.70s;
+  animation-delay: 4.30s;
 } 
 
 #txt4 span:nth-of-type(1){
-  animation-delay: 4.85s;
+  animation-delay: 4.40s;
 }
 #txt4 span:nth-of-type(2){
-  animation-delay: 5s;
+  animation-delay: 4.50s;
 }
 
 #txt5 span:nth-of-type(1){
-  animation-delay: 5.15s;
+  animation-delay: 4.60s;
 }
 #txt5 span:nth-of-type(2){
-  animation-delay: 5.30s;
+  animation-delay: 4.70s;
 }
 
 #txt1{

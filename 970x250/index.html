@@ -68,9 +68,9 @@
       .from("#txt1", { duration:0}, "<")
       .to("#txt1", {opacity:0, scale:1, ease:"in", duration:0.5},"+=1.5")
 
-      .from("#txt4", { duration:1}, "+=0.5")
-      .from("#txt5", {duration:1}, "+=0.5")
-      .from("#txt6", {opacity:0, duration:1}, "<")
+      .from("#txt4", { duration:1}, "<")
+      .from("#txt5", {duration:1}, "<")
+      .from("#txt6", {opacity:0, duration:1}, "+=0.5")
       .to("#txt4, #txt5, #txt6", {opacity:0, scale:1, ease:"in", duration:0.5},"+=2")
 
       .from("#image1", {opacity:0, scale:1, duration:0.5}, "<")
@@ -82,12 +82,12 @@
       .to("#txt7", {opacity:0, scale:1.2, ease:"back", duration:0.7},"+=2")
       
       .from("#logo1", {opacity:0, scale:1, duration:0.5}, "<")
-      .from("#image4", {opacity:0, scale:0.25, duration:0.25}, "<")
-      .from("#image5", {opacity:0, scale:0.5, duration:0.25}, "<")
-      .from("#image6", {opacity:0, scale:0.75, duration:0.25}, "<")
-      .from("#image7", {opacity:0, scale:0.75, duration:0.25}, "<")
-      .from("#image8", {opacity:0, scale:0.75, duration:0.25}, "<")
-      .from("#image9", {opacity:0, scale:0.75, duration:0.25}, "<")
+      .from("#image4", {opacity:0, scale:1, duration:0.25}, "<")
+      .from("#image5", {opacity:0, scale:1, duration:0.25}, "<")
+      .from("#image6", {opacity:0, scale:1, duration:0.25}, "<")
+      .from("#image7", {opacity:0, scale:1, duration:0.25}, "<")
+      .from("#image8", {opacity:0, scale:1, duration:0.25}, "<")
+      .from("#image9", {opacity:0, scale:1, duration:0.25}, "<")
       .from("#cta", {opacity:0, scale:1, duration:1}, "<");
       gsap.to("#image1, #image3", {
       backgroundPositionX: "-300px",
