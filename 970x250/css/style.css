@@ -1,0 +1,225 @@
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 970px;
+  height: 250px;
+  background: #bf353d;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.logo {
+  background: url('../img/logo_2x.png') center no-repeat;
+  z-index: 3;
+  width: 91%;
+  background-size: contain;
+  z-index: 5;
+}
+#logo1{
+  background: url('../img/logo_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 6;
+}
+
+.image1 {
+  background: url('../img/image1_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  height: 250px;
+  width: 1940px;
+}
+.image2 {
+  background: url('../img/image2_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  height: 250px;
+  width: 1940px;
+}
+.image3 {
+  background: url('../img/image3_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  height: 250px;
+  width: 1940px;
+}
+.image4 {
+  background: url('../img/image4_2x.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  z-index: 5;
+  height: 500px;
+  width: 970px;
+}
+.image5 {
+  background: url('../img/image5_2x.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 500px;
+  width: 970px;
+  z-index: 4;
+}
+.image6 {
+  background: url('../img/image6_2x.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 500px;
+  width: 970px;
+  z-index: 4;
+}
+.image7 {
+  background: url('../img/image4_2x.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 500px;
+  width: 970px;
+  left: -30%;
+  z-index: 4;
+}
+.image8 {
+  background: url('../img/image5_2x.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 500px;
+  width: 970px;
+  z-index: 4;
+  left: 30%;
+}
+.image9 {
+  background: url('../img/image6_2x.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  height: 500px;
+  width: 970px;
+  z-index: 4;
+  left: 30%;
+}
+#txt1{
+  animation: type 1s steps(60, end); 
+  animation-fill-mode: forwards; 
+  left: 280px;
+  top: 80px;
+}
+.text2{
+  font-family: 'Poppins', sans-serif;
+  animation: type 1s steps(60, end); 
+  animation-fill-mode: forwards; 
+  font-size: 36px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  visibility: hidden;
+  color: #ffffff;
+
+}
+.text1 {
+  font-family: 'Prata', serif;
+  color: #ffffff;
+  font-size: 72px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  visibility: hidden;
+}
+@keyframes type{ 
+  from { width: 0px; visibility: visible; opacity: 0.2; } 
+  to{visibility: visible;}
+}
+#txt4 span,#txt5 span{
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+#txt4{
+  top: 76px;
+  left: 263px;
+}
+#txt4 span:nth-of-type(1){
+  animation-delay: 2.5s;
+}
+
+#txt4 span:nth-of-type(2){
+  animation-delay: 2.75s;
+} 
+#txt4 span:nth-of-type(3){
+  animation-delay: 2.90s;
+}
+#txt4 span:nth-of-type(4){
+  animation-delay: 3.05s;
+}
+#txt4 span:nth-of-type(5){
+  animation-delay: 3.15s;
+} 
+#txt4 span:nth-of-type(6){
+  animation-delay: 3.30s;
+}
+#txt4 span:nth-of-type(7){
+  animation-delay: 3.45s;
+}
+
+#txt5{
+  top: 116px;
+  left: 318px;
+}
+#txt5 span:nth-of-type(1){
+  animation-delay: 3.60s;
+}
+#txt5 span:nth-of-type(2){
+  animation-delay: 3.75s;
+} 
+#txt5 span:nth-of-type(3){
+  animation-delay: 3.90s;
+} 
+#txt5 span:nth-of-type(4){
+  animation-delay: 4.05s;
+} 
+#txt5 span:nth-of-type(5){
+  animation-delay: 4.15s;
+} 
+#txt5 span:nth-of-type(6){
+  animation-delay: 4.30s;
+} 
+@keyframes fadeIn{
+  
+  to{opacity: 1;}
+}
+#txt6 {
+  background: url('../img/txt5_2x.png') center no-repeat;
+  background-size: 100% 100%;
+}
+#txt7 {
+  background: url('../img/txt6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+}
+#cta{
+  background: url('../img/cta_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 5;
+}

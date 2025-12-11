@@ -1,0 +1,233 @@
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 600px;
+  background: #bf353d;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.logo {
+  background: url('../img/logo_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index:1;
+}
+.logo1 {
+  background: url('../img/logo_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index:1;
+}
+#line1{
+  padding-top: 157px;
+  left: 65px;
+  animation: type 0.75s steps(60, end); 
+  animation-fill-mode: forwards; 
+}
+#line2{
+  padding-top: 211px;
+  left: 68px;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards; 
+}
+#line3{
+  padding-top: 157px;
+  left: 65px;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 12.5s;
+  animation-fill-mode: forwards; 
+}
+#line4{
+  padding-top: 211px;
+  left: 68px;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 12.75s;
+  animation-fill-mode: forwards; 
+}
+
+.text1 {
+  line-height: 49px;
+  color: #ffffff;
+  font-family: 'Prata', serif;
+  padding-top: 130px;
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  visibility: hidden;
+  animation: type 1s steps(60, end); 
+  animation-fill-mode: forwards; 
+}
+
+@keyframes type{ 
+  from { width: 0px;visibility: visible;opacity: 0.2; } 
+  to{visibility: visible;}
+}
+#txt1, #txt2, #txt3, #txt4, #txt5 {
+	display:inline-block;
+  color: #ffffff; 
+  font-family: 'Poppins', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  font-size: 28px;
+  text-align: center;
+}
+
+#txt1 span, #txt2 span, #txt3 span, #txt4 span, #txt5 span{
+  opacity: 0;
+  animation: fadeIn 0.75s ease-out forwards;
+}
+#txt1 span:nth-of-type(1){
+  animation-delay: 3.5s;
+}
+#txt1 span:nth-of-type(2){
+  animation-delay: 3.65s;
+} 
+#txt1 span:nth-of-type(3){
+  animation-delay: 3.80s;
+} 
+
+#txt2 span:nth-of-type(1){
+  animation-delay: 3.95s;
+}
+#txt2 span:nth-of-type(2){
+  animation-delay: 4.10s;
+} 
+#txt2 span:nth-of-type(3){
+  animation-delay: 4.25s;
+}
+
+#txt3 span:nth-of-type(1){
+  animation-delay: 4.40s;
+}
+#txt3 span:nth-of-type(2){
+  animation-delay: 4.55s;
+} 
+#txt3 span:nth-of-type(3){
+  animation-delay: 4.70s;
+} 
+
+#txt4 span:nth-of-type(1){
+  animation-delay: 4.85s;
+}
+#txt4 span:nth-of-type(2){
+  animation-delay: 5s;
+}
+
+#txt5 span:nth-of-type(1){
+  animation-delay: 5.15s;
+}
+#txt5 span:nth-of-type(2){
+  animation-delay: 5.30s;
+}
+
+#txt1{
+  padding-top: 195px;
+}
+#txt2{
+  padding-top: 230px;
+}
+#txt3{
+  padding-top: 265px;
+}
+#txt4{
+  padding-top: 300px;
+}
+#txt5{
+  padding-top: 328px;
+}
+@keyframes fadeIn{
+  
+  to{opacity: 1;}
+}
+#txt6 {
+  background: url('../img/txt5_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  top: 105px;
+}
+#txt7 {
+  background: url('../img/txt6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+}
+.image1 {
+  background: url('../img/image1_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  width: 600px;
+  height: 600px;
+}
+.image2 {
+  background: url('../img/image2_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  width: 600px;
+  height: 600px;
+}
+.image3 {
+  background: url('../img/image3_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  width: 600px;
+  height: 600px;
+}
+#image4 {
+  background: url('../img/image1_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  width: 600px;
+  height: 600px;
+}
+#image5{
+  background: url('../img/image2_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  width: 600px;
+  height: 600px;
+}
+#image6 {
+  background: url('../img/image3_2x.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  width: 600px;
+  height: 600px;
+}
+#cta{
+  background: url('../img/cta_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+#cta1{
+  background: url('../img/cta_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 3;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="ad.size" content="width=970,height=250" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>970x250</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
+  <script>
+    var clickTag = "https://supacentamoorepark.com.au/sales-landing-page/boxing-day-sale-2025/";
+  </script>
+</head>
+<body>
+  <div class="app">
+    <div id="logo" class="absolute top-0 left-0 w-full h-full logo"></div>
+    <div id="txt1" class="absolute top-0 left-0 w-full h-full text1">
+      Save Big, Win Big!
+    </div>
+    <div id="txt4" class="absolute top-0 left-0 w-full h-full text2">
+      <span>Spend</span> 
+      <span>$200</span> 
+      <span>or</span>
+      <span>more</span>
+      <span>for</span>
+      <span>your</span>
+      <span>chance</span>
+    </div>
+    <div id="txt5" class="absolute top-0 left-0 w-full h-full text2">
+      <span>to</span> 
+      <span>win</span> 
+      <span>$10,000</span>
+      <span>during</span>
+      <span>our</span>
+      <span>Sale<sup>*</sup></span>
+    </div>
+    <div id="txt6" class="absolute top-0 left-0 w-full h-full"></div>
+
+    <div id="image1" class="absolute top-0 right-0 h-full image1"></div>
+    <div id="image2" class="absolute top-0 right-0 h-full image2"></div>
+    <div id="image3" class="absolute top-0 right-0 h-full image3"></div>
+
+    <div id="txt7" class="absolute top-0 left-0 w-full h-full text7"></div>
+
+    <div id="logo1" class="absolute top-0 left-0 w-full h-full logo1"></div>
+
+    <div id="image4" class="absolute top-0 right-0 h-full image4"></div>
+    <div id="image5" class="absolute top-0 right-0 h-full image5"></div>
+    <div id="image6" class="absolute top-0 right-0 h-full image6"></div>
+    <div id="image7" class="absolute top-0 right-0 h-full image7"></div>
+    <div id="image8" class="absolute top-0 right-0 h-full image8"></div>
+    <div id="image9" class="absolute top-0 right-0 h-full image9"></div>
+    <div id="cta" class="absolute top-0 left-0 w-full h-full"></div>
+  </div>
+
+  <script>
+    document.querySelector(".app").addEventListener("click", function () {
+    if (window.clickTag) {
+      window.open(window.clickTag, "_blank");
+    }
+  });
+
+    gsap.timeline()
+    .from("#logo", {opacity:0, scale:1, y:-250, duration:0.5})
+      .from("#txt1", { duration:0}, "<")
+      .to("#txt1", {opacity:0, scale:1, ease:"in", duration:0.5},"+=1.5")
+
+      .from("#txt4", { duration:1}, "+=0.5")
+      .from("#txt5", {duration:1}, "+=0.5")
+      .from("#txt6", {opacity:0, duration:1}, "<")
+      .to("#txt4, #txt5, #txt6", {opacity:0, scale:1, ease:"in", duration:0.5},"+=2")
+
+      .from("#image1", {opacity:0, scale:1, duration:0.5}, "<")
+      .from("#image2", {opacity:0, scale:1, duration:0.5}, "<")
+      .from("#image3", {opacity:0, scale:1, duration:0.5}, "<")
+      .to("#image1, #image2, #image3, #logo", {opacity:0, scale:1, ease:"back", duration:0.7}, "+=2.5")
+
+      .from("#txt7", {opacity:0, duration:0.5}, "<")
+      .to("#txt7", {opacity:0, scale:1.2, ease:"back", duration:0.7},"+=2")
+      
+      .from("#logo1", {opacity:0, scale:1, duration:0.5}, "<")
+      .from("#image4", {opacity:0, scale:0.25, duration:0.25}, "<")
+      .from("#image5", {opacity:0, scale:0.5, duration:0.25}, "<")
+      .from("#image6", {opacity:0, scale:0.75, duration:0.25}, "<")
+      .from("#image7", {opacity:0, scale:0.75, duration:0.25}, "<")
+      .from("#image8", {opacity:0, scale:0.75, duration:0.25}, "<")
+      .from("#image9", {opacity:0, scale:0.75, duration:0.25}, "<")
+      .from("#cta", {opacity:0, scale:1, duration:1}, "<");
+      gsap.to("#image1, #image3", {
+      backgroundPositionX: "-300px",
+      duration: 6,
+      repeat: -1,
+      ease: "linear"
+    });
+
+    gsap.to("#image2", {
+      backgroundPositionX: "300px",
+      duration: 6,
+      repeat: -1,
+      ease: "linear"
+    });
+
+    gsap.to("#image4, #image6, #image8", {
+      backgroundPositionY: "-250px",
+      duration: 6,
+      repeat: -1,
+      ease: "linear"
+    });
+
+    gsap.to("#image5, #image7, #image9", {
+      backgroundPositionY: "250px",
+      duration: 6,
+      repeat: -1,
+      ease: "linear"
+    });
+  </script>
+</body>
+</html>
