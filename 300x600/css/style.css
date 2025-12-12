@@ -47,28 +47,28 @@
   z-index:1;
 }
 #line1{
-  padding-top: 157px;
-  left: 65px;
+  padding-top: 146px;
+  left: 30px;
   animation: type 0.75s steps(60, end); 
   animation-fill-mode: forwards; 
 }
 #line2{
-  padding-top: 211px;
-  left: 68px;
+  padding-top: 216px;
+  left: 34px;
   animation: type 0.75s steps(60, end); 
   animation-delay: 0.5s;
   animation-fill-mode: forwards; 
 }
 #line3{
-  padding-top: 157px;
-  left: 65px;
+  padding-top: 146px;
+  left: 30px;
   animation: type 0.75s steps(60, end); 
   animation-delay: 12.5s;
   animation-fill-mode: forwards; 
 }
 #line4{
-  padding-top: 211px;
-  left: 68px;
+  padding-top: 216px;
+  left: 34px;
   animation: type 0.75s steps(60, end); 
   animation-delay: 12.75s;
   animation-fill-mode: forwards; 
@@ -79,7 +79,7 @@
   color: #ffffff;
   font-family: 'Prata', serif;
   padding-top: 130px;
-  font-size: 40px;
+  font-size: 56px;
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
@@ -230,4 +230,7 @@
   background: url('../img/cta_2x.png') center no-repeat;
   background-size: 100% 100%;
   z-index: 3;
+}
+.small{
+  font-size: 12px;
 }
