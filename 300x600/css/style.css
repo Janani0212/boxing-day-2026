@@ -63,14 +63,14 @@
   padding-top: 146px;
   left: 30px;
   animation: type 0.75s steps(60, end); 
-  animation-delay: 12.5s;
+  animation-delay: 10.5s;
   animation-fill-mode: forwards; 
 }
 #line4{
   padding-top: 216px;
   left: 34px;
   animation: type 0.75s steps(60, end); 
-  animation-delay: 12.75s;
+  animation-delay: 10.75s;
   animation-fill-mode: forwards; 
 }
 
